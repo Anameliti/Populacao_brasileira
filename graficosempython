@@ -6,11 +6,10 @@ x = []
 y = []
 
 for i in range(len(dados)):
-    if o != 0:
+    if i  != 0:
         linha = dados[i].split(";")
         x.append(int(linha[0]))
         y.append(int(linha[1]))
-
 
 plt.plot(x,y)
 plt.show()
